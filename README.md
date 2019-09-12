@@ -7,9 +7,9 @@
 * Write an `if...elsif...else...end` Statement
 * Use statement modifiers to change default sequence
 
-## Introduction
+## Introduction ![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png)
 
-![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png) We've covered the **default sequence** Ruby follows when reading and executing
+We've covered the **default sequence** Ruby follows when reading and executing
 a Ruby file. Let's teach the sequence to change by using the **selection**
 statement: `if...end`.
 

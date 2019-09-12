@@ -9,12 +9,12 @@
 
 ## Introduction
 
-We've covered the **default sequence** Ruby follows when reading and executing
+![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png) We've covered the **default sequence** Ruby follows when reading and executing
 a Ruby file. Let's teach the sequence to change by using the **selection**
 statement: `if...end`.
 
 
-## Write an `if...end` Statement
+## Write an `if...end` Statement ![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png) 
 
 ```ruby
 run_code_inside = true
@@ -58,7 +58,7 @@ We want to keep working in the `learning-if-end.rb`, file, but we want to
 "mute" this  bit of code. We can do that by commenting-out this code so that,
 to Ruby's point-of-view, there's nothing in the file.
 
-## Write an `if...else...end` Statement
+## Write an `if...else...end` Statement ![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png) 
 
 A slightly more advanced version of `if...end` is `if...else...end`. In this
 code, we are guaranteed that the code in ONE of the two blocs will run (as the
@@ -95,7 +95,7 @@ In an `if...else...end` statement, if the expression to the right of `if`
 evaluates `true`, the work between `if` and `else` is run. If the expression to
 the right of `if` evaluates `false`, the code between `else` and `end` runs.
 
-## Write an `if...elsif...else...end` Statement
+## Write an `if...elsif...else...end` Statement ![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png) 
 
 Sometimes choices are strictly limited to a path A or path B option, sometimes
 there's a third, fourth, option. In that case we need the
@@ -125,7 +125,7 @@ that you get different output!
 |`1000`|&nbsp;|
 |`-23`|&nbsp;|
 
-## Use Statement Modifiers to Change Default Sequence
+## Use Statement Modifiers to Change Default Sequence ![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png) 
 
 Ruby has a useful feature called a _statement modifier_ that allows you to put
 a conditional at the end of a statement. For example, let's consider this

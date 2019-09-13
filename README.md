@@ -16,7 +16,7 @@ Let's teach the sequence to change by using the **selection**
 statement: `if...end`. Selection statements skip code. If the default sequence
 is top-down, they "hop over" some lines based on certain conditions.
 
-## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_mini.png) Write an `if...end` Statement 
+## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_midi.png) Write an `if...end` Statement 
 
 ```ruby
 run_code_inside = true
@@ -56,7 +56,7 @@ sequence** is overridden:
 5. Since it evaluates `false`, we skip to the `end` reserved word
 6. Print out with `puts "Code after if...end"`
 
-## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_mini.png) Write an `if...else...end` Statement
+## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_midi.png) Write an `if...else...end` Statement
 
 A slightly more advanced version of `if...end` is `if...else...end`. In this
 code, we are guaranteed that the code in ONE of the two blocks will run (as the
@@ -93,7 +93,7 @@ In an `if...else...end` statement, if the expression to the right of `if`
 evaluates `true`, the work between `if` and `else` is run. If the expression to
 the right of `if` evaluates `false`, the code between `else` and `end` runs.
 
-## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_mini.png) Write an `if...elsif...else...end`
+## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_midi.png) Write an `if...elsif...else...end`
 
 Sometimes choices are strictly limited to a path A or path B option, sometimes
 there's a third, fourth, option. In that case, we need the
@@ -123,7 +123,7 @@ value of `chance_of_rain`. You'll see that you get different output!
 |`1000`|&nbsp;|
 |`-23`|&nbsp;|
 
-## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_mini.png) Use Statement Modifiers to Change Default Sequence
+## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_midi.png) Use Statement Modifiers to Change Default Sequence
 
 Ruby has a useful feature called a _statement modifier_ that allows you to put
 a conditional at the end of a statement. For example, let's consider this

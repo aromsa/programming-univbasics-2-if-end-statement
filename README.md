@@ -10,9 +10,11 @@
 ## Introduction
 
 We've covered the **default sequence** Ruby follows when reading and executing
-a Ruby file. Let's teach the sequence to change by using the **selection**
-statement: `if...end`.
+a Ruby file: top-down, left-to-right for every non-commented line.
 
+Let's teach the sequence to change by using the **selection**
+statement: `if...end`. Selection statements skip code. If the default sequence
+is top-down, they "hop over" some lines based on certain conditions.
 
 ## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_mini.png) Write an `if...end` Statement 
 
@@ -45,7 +47,7 @@ Following the **default sequence** we:
 6. Print out with `puts "Code after if...end"`
 
 Try changing `run_code_inside` from `true` to `false` and see how the **default
-sequence** operates:
+sequence** is overridden:
 
 1. Assign `run_code_inside`
 2. Print out with `puts "Code before if...end"`
@@ -54,14 +56,10 @@ sequence** operates:
 5. Since it evaluates `false`, we skip to the `end` reserved word
 6. Print out with `puts "Code after if...end"`
 
-We want to keep working in the `learning-if-end.rb`, file, but we want to
-"mute" this  bit of code. We can do that by commenting-out this code so that,
-to Ruby's point-of-view, there's nothing in the file.
-
 ## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_mini.png) Write an `if...else...end` Statement
 
 A slightly more advanced version of `if...end` is `if...else...end`. In this
-code, we are guaranteed that the code in ONE of the two blocs will run (as the
+code, we are guaranteed that the code in ONE of the two blocks will run (as the
 Boolean expression can only ever be one of two choices).
 
 ```ruby
@@ -98,7 +96,7 @@ the right of `if` evaluates `false`, the code between `else` and `end` runs.
 ## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_mini.png) Write an `if...elsif...else...end`
 
 Sometimes choices are strictly limited to a path A or path B option, sometimes
-there's a third, fourth, option. In that case we need the
+there's a third, fourth, option. In that case, we need the
 `if...elsif...else...end` statement.
 
 ```ruby
@@ -112,8 +110,8 @@ else
 end
 ```
 
-Try filling in a table by changing the value of `chance_of_rain`. You'll see
-that you get different output!
+Try filling in a table on some scratch paper by changing the
+value of `chance_of_rain`. You'll see that you get different output!
 
 |`chance_of_rain` value|Output|
 |-|-|
@@ -167,11 +165,10 @@ this_year = 2019
 puts "Hey, it's not 2019!" unless this_year == 2019
 ``` 
 
-> **STRETCH**: Here we've hard-coded the year in `this_year`. If you want to
-> ask **Ruby** to tell you the year, ask IRB what `Time.now.year` gives you.
-> That _expression_ could be assigned to `this_year` if you want more
-> robust &mdash; and thus better &mdash; code! It's a common practice for
-> developers to try out an expression in IRB, verify it, make sure they
-> understand it, and _then_ integrate it into their code.
+## Conclusion
+
+In this lesson, we've learned the most essential SELECTION statement: the `if...else...end`
+statement. It can be expanded slightly with `elsif`. SELECTION has multiple means
+of use in Ruby
 
 [demorgan]: https://en.wikipedia.org/wiki/De_Morgan%27s_laws
